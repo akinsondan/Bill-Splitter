@@ -101,6 +101,9 @@ files:
     if __name__ == '__main__':
         BillSplitterTest().run_tests()
   learner_created: false
+- name: ZooKeeper.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/175/stages/904/implement#comment
 status: Solved
 record: -1
