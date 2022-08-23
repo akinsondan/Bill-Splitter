@@ -21,7 +21,6 @@ else:
         new_friend_dict = dict.fromkeys(friends, new_bill)
         if lucky_one in new_friend_dict:
             new_friend_dict[lucky_one] = 0
-            
         print()
         print(lucky_one, 'is the lucly one')
         print()
