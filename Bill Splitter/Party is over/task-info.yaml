@@ -1,19 +1,5 @@
 type: edu
 files:
-- name: billsplitter.py
-  visible: true
-  text: "import random\nfriends = []\nnum_ppl = int(input('No of friends:\\n'))\n\
-    print()\nif num_ppl <= 0:\n    print(\"No one is joining for the party\")\nelse:\n\
-    \    print('Enter names of friends:\\n')\n    for i in range(num_ppl):\n     \
-    \   frnds_name = input()\n        friends.append(frnds_name)\n    print()\n  \
-    \  total_bill = int(input('Enter the total bill value:\\n'))\n    bill = round(total_bill/num_ppl,\
-    \ 2)\n    lucky_feature = input('Do you want to use the \"Who is lucky?\" feature?\
-    \ Write Yes/No: ')\n    print()\n    if lucky_feature == 'Yes':\n        lucky_one\
-    \ = random.choice(friends)\n        print()\n        print(lucky_one, 'is the\
-    \ lucly one')\n    else:\n        print()\n        print('No one is going to be\
-    \ lucky')\n    frnds_dict = dict.fromkeys(friends, bill)\n    \n    #print()\n\
-    \    #print(frnds_dict)"
-  learner_created: false
 - name: tests.py
   visible: false
   text: |
@@ -101,9 +87,6 @@ files:
     if __name__ == '__main__':
         BillSplitterTest().run_tests()
   learner_created: false
-- name: ZooKeeper.py
-  visible: true
-  learner_created: true
-feedback_link: https://hyperskill.org/projects/175/stages/904/implement#comment
+feedback_link: https://hyperskill.org/learn/step/12901#comment
 status: Solved
 record: -1
